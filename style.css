@@ -1,0 +1,259 @@
+.busca {
+    max-width: min-content;
+}
+
+.img-lupa {
+    width: 10%;
+}
+
+.título h1 {
+    color: #004543;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 300%;
+}
+
+.logos {
+    margin: 0;
+    padding: 0;
+}
+
+.logos img {
+    width: 20%;
+    max-width: 150px;
+}
+
+header {
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.301);
+}
+
+.top-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-div {
+    padding-bottom: 1%;
+    text-align: center;
+
+
+}
+
+.bottom-div a {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+    margin: 5px;
+    transition: color 0.3s ease;
+}
+
+#noticias {
+    color: #3498db;
+}
+
+#crianças {
+    color: #e74c3c;
+}
+
+#ciência {
+    color: #2ecc71;
+}
+
+#dúvida {
+    color: #f39c12;
+}
+
+#fato {
+    color: #9b59b6;
+}
+
+#parque {
+    color: #1abc9c;
+}
+
+#centro {
+    color: #f1c40f;
+}
+
+#inovação {
+    color: #34495e;
+}
+
+.bottom-div a:hover {
+    background-color: #eeeeee;
+    transform: scale(1.05);
+}
+
+.destaque {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.destaque img {
+    width: 80%;
+    border-radius: 20px;
+    display: block;
+}
+
+.destaque p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(23, 112, 59, 0.8);
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    max-width: 80%;
+}
+
+.elemento {
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 22%;
+    height: 18%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    padding: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.elemento:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.elemento-titulo {
+    background-color: #17703b;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+
+}
+
+.elemento-texto {
+    color: #17703b;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-size: 22.4px;
+    line-height: 1.5;
+    margin: 16px 0px;
+}
+
+.box-p {
+    max-width: 200px;
+}
+
+.box-p-titulo {
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    .busca {
+        max-width: 15%;
+    }
+
+    .img-lupa {
+        width: 10%;
+    }
+
+    .título h1 {
+        font-size: 2.5em;
+        text-align: right;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .logos img {
+        width: 0%;
+    }
+
+    .bottom-div {
+        margin-bottom: 2%;
+    }
+
+    .bottom-div a {
+        font-size: 12px;
+        padding: 8px 10px;
+        margin: 5px auto;
+    }
+
+    .destaque img {
+        width: 90%;
+    }
+
+    .destaque p {
+        font-size: 18px;
+        max-width: 80%;
+    }
+
+    .caixa {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .elemento {
+        width: 45%;
+        height: 45%;
+        margin: 10px auto;
+    }
+
+    .elemento-titulo {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .elemento-texto {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .título h1 {
+        font-size: 1.8em;
+        text-align: right;
+    }
+
+    .elemento {
+        width: 90%;
+        height: auto;
+    }
+
+    .destaque img {
+        width: 100%;
+    }
+
+    .box-p p {
+        font-size: 13px;
+    }
+
+    .elemento-titulo {
+        font-size: 16px;
+    }
+
+    .elemento-texto {
+        font-size: 15px;
+    }
+}
