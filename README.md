@@ -16,8 +16,5 @@ Este projeto foi desenvolvido como parte da disciplina de Programação Web. A i
 
 - HTML5
 - CSS3
-- Imagens Externas
-- Flexbox para layout
-- Media Queries para responsividade
 
 ##### Desenvolvido por Heliny Oliveira
